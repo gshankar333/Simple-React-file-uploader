@@ -1,0 +1,60 @@
+.div-structure-core {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.width-75{
+    width: 75%;
+}
+.file-input{
+    padding: 0.6em 1.2em;
+}
+.form-styles {
+    width: 65%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    background: #f0f0f0;
+    border-radius: 25px;
+    box-shadow: 20px 20px 50px grey;;
+}
+.uploaded-files-list {
+    display: flex;
+    width: 65%;
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+    justify-content: space-between;
+    background: #f2f2f2;
+    border-radius: 15px;
+    text-align: left;
+    
+}
+
+.file-input-tag{
+    display: none;
+}
+
+.danger{
+    color: red;
+}
+
+.ellipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 65%;
+    display: inline-block; 
+  }
+
+
+
+@media (min-width: 100px) and (max-width: 500px){
+  .mobile-width {
+    width: 95%;
+  }
+  
+}
