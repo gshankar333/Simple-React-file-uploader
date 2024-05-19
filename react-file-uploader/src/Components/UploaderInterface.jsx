@@ -50,7 +50,7 @@ const UploaderInterface = () =>{
                     <div className="div-structure-core">
                         <h2>File Uploader</h2>
                         <form className="mobile-width form-styles">
-                            <label htmlFor="file-input" className="width-75 file-input">{files.length>0 ? files.map(file => file.name).join(' , '):'Choose Files ...'}</label>
+                            <label htmlFor="file-input" className="width-75 file-input ellipsis">{files.length>0 ? files.map(file => file.name).join(' , '):'Choose Files ...'}</label>
                             <input type="file" id="file-input" className="file-input-tag" multiple onChange={handleFiles} />
                             <button type="submit" onClick={UploadFile}>Upload</button>
                         </form>
